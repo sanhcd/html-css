@@ -1,0 +1,130 @@
+    header {
+      display: block;
+    }
+  
+    .layer {
+      display: flex;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .logo {
+      width: 30%;
+      padding: 20px 0;
+      background-color: lightblue;
+    }
+  
+    .temp-name {
+      width: 40%;
+      padding: 20px 0;
+      background-color: sandybrown;
+    }
+  
+    .act-btn {
+      width: 30%;
+      padding: 20px 0;
+      background-color: lightyellow;
+    }
+  
+    .menu {
+      width: 70%;
+      padding: 20px 0;
+      background-color: lightgreen;
+    }
+  
+    .search {
+      width: 30%;
+      padding: 20px 0;
+      background-color: skyblue;
+    }
+  
+    .banner {
+      width: 100%;
+      padding: 20px 0;
+      background-color: plum;
+    }
+  
+    main {
+      display: flex;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .sidebar-left {
+      width: 20%;
+      padding: 300px 0;
+      background-color: gainsboro;
+    }
+  
+    .main-content {
+      width: 60%;
+      padding: 300px 0;
+      background-color: lightyellow;
+    }
+  
+    .sidebar-right {
+      width: 20%;
+      padding: 300px 0;
+      background-color: gainsboro;
+    }
+  
+    footer {
+      text-align: center;
+      padding: 40px 0 ;
+      background-color: tomato;
+    }
+  
+  @media screen and (max-width: 767px) {
+    header {
+      display: block;
+    }
+  
+    .layer {
+      display: block;
+    }
+  
+    .logo {
+      width: 100%
+    }
+  
+    .temp-name {
+      width: 100%
+    }
+  
+    .act-btn {
+      width: 100%
+    }
+  
+    .menu {
+      width: 100%
+    }
+  
+    .search {
+      width: 100%
+    }
+  
+    .banner {
+      width: 100%
+    }
+  
+    main {
+      display: block;
+    }
+  
+    .sidebar-left {
+      width: 100%
+    }
+  
+    .main-content {
+      width: 100%
+    }
+  
+    .sidebar-right {
+      width: 100%
+    }
+  
+    footer {
+      background-color: gray;
+    }
+  }
+  
