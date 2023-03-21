@@ -1,0 +1,86 @@
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    background-color:rgb(210, 210, 210);
+  }
+  input, textarea, select {
+    outline: none;
+    border: 1px solid #b8b8b8;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #847373;
+  }
+  
+#container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.register{
+    margin: 30px;
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.register h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.name , .password , .email, .sex,.birthday,.password,.message {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name span,.password span,.email span{
+    width: 20%;
+}
+
+.birthday div{
+    width: 60%;
+    padding-left: 2%;
+}
+
+.sex div{
+    width: 70%;
+    padding-left: 13%;
+}
+
+.sex > div > span {
+    font-weight: bold;
+}
+
+.message span{
+    width: 20%;
+}
+
+.message textarea{
+    width: 58%;
+}
+
+.checkbox{
+    padding: 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button{
+    width: 120px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+}
